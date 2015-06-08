@@ -23,7 +23,9 @@
     </nav>
     <div class = "container contContent">
       <div class = "contContent text-center">
-        <h3 >About</h3>
-        <p>This is the about page. Put some stuff about you here.</p>
+        <h3 >You are logged in as: <strong>{{user}}</strong></h3>
+        <form action="/logout" method="get">
+            <button type="submit">Logout</button>
+        </form>
       </div>
     </div>
